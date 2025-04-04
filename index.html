@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Preparatório - ETE e IF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffa500;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff8c00;
+            color: white;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .professores-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .professor {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+        }
+        .professor img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #ff8c00;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .social-icons i {
+            margin: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curso Preparatório - ETE e IF</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre.html">Sobre</a></li>
+                <li><a href="#Redação do Zero">Professores</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Prepare-se com os melhores professores!</h2>
+        <p>Nosso curso oferece ensino de qualidade para sua aprovação. Aprenda com especialistas e conquiste sua vaga!</p>
+    </section>
+
+    <section id="professores">
+        <h2>Conheça nossos professores</h2>
+        <div class="professores-container">
+            <div class="professor">
+                <img src="samanta.jpeg" alt="Professora de Português">
+                <h3>Profª Samanta</h3>
+                <p>Português e Redação</p>
+            </div>
+            <div class="professor">
+                <img src="teacher.jpeg" alt="Professor de Matemática">
+                <h3>Prof. Joaquim Fragoso</h3>
+                <p>Matemática</p>
+            </div>
+            <div class="professor">
+                <img src="edvan.enc" alt="Professor de Conhecimentos Gerais ">
+                <h3>Prof. Edvan</h3>
+                <p>Conhecimentos Gerais</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <p>Entre em contato: <strong>cursopreparatorio@email.com</strong></p>
+        <p><strong>Local:</strong> Santa Catarina, 83 - Saramandaia, Igarassu</p>
+        <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+    </footer>
+</body>
+</html>

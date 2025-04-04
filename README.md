@@ -1,1 +1,0 @@
-# Preparatorio-Professora-Samanta
